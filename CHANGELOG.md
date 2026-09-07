@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.4.2 | 2026-09-07
+Fix dependency vulnerabilities and update package dependencies.
+
+### Version changes
+- [UPDATED] axios from ^1.13.5 to ^1.18.0 to address High-severity Prototype Pollution and DoS vulnerabilities.
+
+- [UPDATED] joi from 17.8.3 to ^17.13.7 to address the Moderate-severity uncaught RangeError DoS vulnerability.
+
+- [UPDATED] winston from ^3.8.2 to ^3.19.0.
+
+- [UPDATED] eslint-config-prettier from ^8.6.0 to ^8.10.2.
+
+- [UPDATED] eslint-plugin-import from ^2.27.5 to ^2.32.0 as part of the development tooling updates.
+
+- [UPDATED] Transitive dependency brace-expansion from 1.1.15 to 1.1.18.
+
+- [UPDATED] Transitive dependency form-data from 4.0.5 to 4.0.6.
+
+- [UPDATED] Transitive dependency js-yaml from 4.2.0 to 4.3.2.
+
 ## 1.4.1 | 2026-06-17
 
 Refactor Signoz integration.
